@@ -28,7 +28,7 @@ uvloop==0.22.1
 watchfiles==1.1.1
 websockets==15.0.1
 
-faiss-cpu==1.8.0.post1
+faiss-cpu==1.7.4
 sentence-transformers==2.2.2
 huggingface-hub==0.19.4
 torch==2.1.2
