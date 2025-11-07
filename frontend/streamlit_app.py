@@ -32,7 +32,7 @@ st.set_page_config(page_title="Balance Sheet Analyst (Streamlit)", layout="wide"
 def api_post(path: str, json=None, params=None):
     url = BACKEND_URL.rstrip("/") + path
     try:
-        r = requests.post(url, json=json, params=params, timeout=30)
+        r = requests.post(url, json=json, params=params, timeout=120)
         r.raise_for_status()
         return r.json()
     except Exception as e:
