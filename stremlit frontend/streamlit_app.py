@@ -19,7 +19,9 @@ except Exception:
     REPORTLAB_AVAILABLE = False
 
 # --------------- CONFIG ---------------
-BACKEND_URL = os.getenv("BACKEND_URL", "http://127.0.0.1:8000")
+# --- Backend API endpoint (deployed) ---
+BACKEND_URL = os.getenv("BACKEND_URL", "https://balance-sheet-analyst.onrender.com")
+
 # --------------------------------------
 
 # --------------------------------------
@@ -37,10 +39,6 @@ def api_post(path: str, json=None, params=None):
         st.error(f"Request error: {e}")
         return None
 
-import requests
-import streamlit as st
-
-BACKEND_URL = "http://127.0.0.1:8000"  # or your backend URL
 
 def api_call(path: str, method="GET", params=None, json=None):
     """Generic API caller that supports GET and POST."""
