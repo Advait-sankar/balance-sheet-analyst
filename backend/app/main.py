@@ -29,12 +29,12 @@ PDF_PATH = os.getenv("RAG_PDF_PATH", "/Users/prasunndubey/Desktop/balance-sheet-
 
 # optional: build index synchronously once at startup (commented if you prefer manual)
 try:
-    # try to build index if missing (fast-skip if exists)
-    ensure_index()
+    # load prebuilt RAG index (much faster)
+    INDEX, META = ensure_index()
 except Exception as e:
-    # log but continue — index can be built later
     print("RAG index ensure error:", e)
-
+    INDEX, META = None, None
+    
 
 
 # ---------- Simple auth (demo only) ----------
