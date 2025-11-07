@@ -11,8 +11,8 @@ This project was developed as part of the **AI-based Financial Statement Analysi
 
 ---
 ## Deployment
-- ** Deployed `/backend` on [Render.com]([https://render.com](https://balance-sheet-analyst.onrender.com/docs))
-- ** Deployed `/frontend/streamlit_app.py` on [Streamlit Cloud]([https://share.streamlit.io](https://balance-sheet-analyst-evezqsovn8knc8wthjnmbg.streamlit.app/)) 
+- Deployed `/backend` on [Render.com](https://balance-sheet-analyst.onrender.com/docs)
+- Deployed `/frontend/streamlit_app.py` on [Streamlit Cloud](https://balance-sheet-analyst-evezqsovn8knc8wthjnmbg.streamlit.app/) 
 
 
 ## 🚀 Key Features
