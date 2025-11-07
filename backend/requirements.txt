@@ -20,7 +20,6 @@ faiss-cpu==1.12.0
 PyPDF2==3.0.1
 
 # Frontend (Streamlit dashboard)
-streamlit==1.39.0
 pandas==2.2.3
 plotly==5.24.1
 
@@ -30,3 +29,6 @@ python-multipart==0.0.20
 uvloop==0.22.1
 watchfiles==1.1.1
 websockets==15.0.1
+
+sentence-transformers==2.2.2
+huggingface-hub==0.19.4
