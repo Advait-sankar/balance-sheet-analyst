@@ -10,6 +10,10 @@ It combines structured financial data with document-level reasoning using **RAG 
 This project was developed as part of the **AI-based Financial Statement Analysis Assignment** — built end-to-end using modern open-source tools.
 
 ---
+## Deployment
+- ** Deployed `/backend` on [Render.com]([https://render.com](https://balance-sheet-analyst.onrender.com/docs))
+- ** Deployed `/frontend/streamlit_app.py` on [Streamlit Cloud]([https://share.streamlit.io](https://balance-sheet-analyst-evezqsovn8knc8wthjnmbg.streamlit.app/)) 
+
 
 ## 🚀 Key Features
 
